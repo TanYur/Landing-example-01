@@ -1,0 +1,110 @@
+.price, .support {
+    display: flex;
+    justify-content: space-between;
+    margin: 19rem 39rem;
+    width: 1140px;
+  }
+  
+  .price-infoblock {
+    width: 360px;
+    height: 616px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #e1e4ed;
+    background-color: #ffffff;
+    padding: 64px 0 0 59px;
+  }
+  
+  .price-infoblock .price-header {
+    display: flex;
+    justify-content: space-between;
+    width: 20.9rem;
+  }
+  
+  .price-infoblock .price-header .price__title {
+    margin: 0 0 11px 0;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .price-infoblock .price-header .price__sale {
+    background-color: #e1e4ed;
+    border-radius: 13px;
+    height: 2.6rem;
+  }
+  
+  .btn-price {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #ef7171;
+  }
+  
+  .price-line {
+    width: 40px;
+    height: 2px;
+    margin: 19px 0 17px 0;
+    border-radius: 1px;
+    background-color: #ba43fc;
+  }
+  
+  .price-number {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: left;
+    color: #554d89;
+  }
+  
+  .price-number i {
+    margin-top: 0.7rem;
+    font-size: 43px;
+  }
+  
+  .price-text {
+    font-size: 16px;
+    line-height: 1.31;
+    text-align: left;
+    color: rgba(91, 87, 102, 0.8);
+    margin-bottom: 4rem;
+  }
+  
+  .price-list {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #716c80;
+    margin-left: -4rem;
+  }
+  
+  .price-list li {
+    margin-bottom: 1.4rem;
+  }
+  
+  .price-list li i {
+    color: #6852ed;
+    margin-right: 0.5rem;
+  }
+  
+  .price-list li .red {
+    color: rgba(239, 113, 113, 0.5);
+  }
+  
+  .price__actions {
+    margin-top: 6rem;
+    width: 189px;
+    height: 50px;
+  }
+  
+  .price__actions .btn-dark {
+    margin-top: 4rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  @media screen and (max-width: 2000px) {
+    .price, .support {
+      width: 80%;
+      margin: 10% 20%;
+    }
+  }

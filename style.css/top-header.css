@@ -1,0 +1,27 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4rem 0 1.7rem;
+    font-size: 1.6rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .top-header__text {
+    color: #716c80;
+  }
+  
+  .top-header__phone {
+    color: #716c80;
+    text-decoration: none;
+  }
+  
+  .top-header__phone:hover {
+    text-decoration: underline;
+  }
+  
+  .top-header__phone::before {
+    content: "\f879";
+    font-family: FontAwesome;
+    margin-right: 8px;
+  }

@@ -1,0 +1,31 @@
+.support {
+    flex-direction: row;
+  }
+  
+  .support-item {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .support__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #554d89;
+    margin-bottom: 1.8rem;
+  }
+  
+  .support__text {
+    font-size: 18px;
+    line-height: 1.56;
+    color: #716c80;
+    margin-bottom: 2.5rem;
+  }
+  
+  .support-item .sign {
+    margin-right: 3rem;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    color: #6852ed;
+  }
